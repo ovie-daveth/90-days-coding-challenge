@@ -1,0 +1,121 @@
+.attribution{
+    margin: 2% auto;
+    width: 70%;
+    font-size: 16px;
+    text-align: center;
+}
+@media screen and (min-width: 230px) and (max-width: 768px){
+    body{
+        background: purple;
+    }
+    .homepage-container{
+        flex-direction: column;
+        
+    }
+    
+}
+
+.homepage-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.home{
+    width: 70%;
+    font-family: arial;
+}
+.New{
+    width: 25%;
+    text-align: left;
+    background-color: rgb(31, 3, 31);
+    color: white;
+    padding: 3% 2%;
+    font-family: arial;
+}
+#web3{
+    width: 100%;
+}
+.home-desc{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    text-align: left;
+}
+.About-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    width: 100%;
+    column-gap: 5%;
+    margin-bottom: 5%;
+}
+.About{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    column-gap: 5%;
+}
+.sub-about-img{
+    width: 30%;
+}
+.sub-about{
+    width: 70%;
+    text-align: left;
+}
+#about-img{
+    width: 100%;
+}
+
+/* Typography */
+.home-heading{
+    font-size: 3.0em;
+    
+    font-weight: bolder;
+    width: 50%;
+}
+.home-description{
+    width: 40%;
+    font-size: 1.0em;
+    padding: auto;
+    color: grey;
+}
+.btn-secondary{
+    margin-top: 15%;
+    background-color: rgba(248, 34, 34, 0.678);
+    color: white;
+    border: none;
+    padding: 5% 10%;
+}
+.New h2{
+    margin-bottom: 15px;
+    color: rgb(231, 160, 28);
+}
+.New h4{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.New p{
+    margin-bottom: 40px;
+}
+.New hr{
+    margin-bottom: 30px;
+}
+.sub-about h3{
+    color: grey;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.sub-about h5{
+    color: black;
+    font-weight: bold;
+    font-size: .9em;
+    font-family: arial;
+    margin-bottom: 7%;
+}
+.sub-about p{
+    color: grey;
+    font-family: arial;
+    font-size: 1em;
+}
+
